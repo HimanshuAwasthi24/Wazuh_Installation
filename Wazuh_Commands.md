@@ -6,7 +6,7 @@
 
 # Install the packages below needed for the running of Wazuh Manager.
 
-# sudo apt update
+ sudo apt update
  sudo apt install vim curl apt-transport-https unzip wget libcap2-bin software-properties-common lsb-release gnupg2
 
 # Automated install of Wazuh Server on Ubuntu 20.04|18.04 using script
