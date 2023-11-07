@@ -19,9 +19,9 @@
 # install Wazuh agent on another server to get log and matrices on wazuh manager
 
 ## wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.6.0-1_amd64.deb && sudo WAZUH_MANAGER='IP or Domain' WAZUH_AGENT_GROUP='name' WAZUH_AGENT_NAME='name' dpkg -i ./wazuh-agent_4.6.0-1_amd64.deb
-## sudo systemctl daemon-reload
-## sudo systemctl enable wazuh-agent
-## sudo systemctl start wazuh-agent
+sudo systemctl daemon-reload
+ sudo systemctl enable wazuh-agent
+ sudo systemctl start wazuh-agent
 
 
 
